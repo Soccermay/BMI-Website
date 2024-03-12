@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300..900&display=swap');
+
+:root {
+   --background-color: #1B1A55;
+   --background-color2: #872341;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: radial-gradient(rgb(61, 61, 188), rgb(143, 51, 93));
+    height: 140vh;
+}
+
+h1 {
+    font-family: "Sansita Swashed", system-ui;
+    font-optical-sizing: auto;
+    font-size: 35px;
+    font-weight: weight;
+    color: rgb(36, 36, 2);
+    font-style: normal;
+    text-align: center;
+    margin: 10px;
+    border-bottom: 2px solid #1B1A55;
+    border-bottom-width: 5px;
+    border-radius: 50%;
+    animation: Heading 10s infinite ease-in-out;
+}
+
+@keyframes Heading {
+    0% {
+        color: #1B1A55;
+    }
+
+    20% {
+        color: brown;
+    }
+
+    50% {
+        color: rgb(166, 231, 16);
+    }
+
+    75% {
+        transform: scale(1.1);
+    }
+
+    90% {
+        color: black;
+    }
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.weight {
+    color: #1B1A55;
+    border-radius: 0.8rem;
+    margin: 10px;
+}
+
+.height {
+    color: #1B1A55;
+    border-radius: 0.8rem;
+    margin: 10px;
+}
+
+.BMI > .inputs > .btn-1 {
+    border: none;
+    border-radius: 0.6rem;
+    background-color: antiquewhite;
+    height: 30px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.BMI > .inputs > .btn-1:hover {
+    background-color: cornsilk;
+    color: rgb(20, 27, 27);
+}
+
+.inputs > input[type='number'] {
+    background-color: var(--background-color2);
+    text-align: center;
+    font-size: 25px;
+}
+
+.para > section > p {
+    width: 35%;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Sansita Swashed", system-ui;
+}
+
+.para > section > h3 {
+    font-size: 20px;
+}
+
+.images > .container {
+    display: flex;
+    margin: 10px;
+    justify-content: space-evenly;
+}
+
+.container > .diet {
+    background-color: #535C91;
+    border-radius: 0.8rem;
+    border: 3px solid var(--background-color2);
+    width: 30%;
+    text-align: center;
+}
+
+.diet > h5 {
+    font-size: 20px;
+}
+
+.gym > h5 {
+    font-size: 20px;
+}
+
+.gym > p {
+    width: 70%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.jogging > h5 {
+    font-size: 20px;
+}
+
+.container > .gym {
+    background-color: #535C91;
+    border-radius: 0.8rem;
+    border: 3px solid var(--background-color2);
+    width: 30%;
+    text-align: center;
+}
+
+.container > .jogging {
+    background-color: #535C91;
+    border-radius: 0.8rem;
+    border: 3px solid var(--background-color2);
+    width: 30%;
+    text-align: center;
+}
