@@ -109,5 +109,18 @@ function getMilk(bottles, money) {
   
   console.log("Hello there Sir, here is your " + getMilk(12, 64) + " change."); //calling back the function with values
   
-  
+
+function Love() {
+    prompt("What is your name?");
+    prompt("What is their name?");
+
+    let number = Math.random() * 100;
+    number = Math.floor(number);
+    console.log(number);
+
+    alert("Your final score is " + number + "%");
+}
+
+Love();
+
 
