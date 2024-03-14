@@ -155,7 +155,7 @@ h1 {
         flex-direction: column;
     }
 
-    .para > section > p {
+    section > p {
         width: 85%;
     }
 }

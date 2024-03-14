@@ -119,6 +119,17 @@ function Love() {
     console.log(number);
 
     alert("Your final score is " + number + "%");
+
+
+    if(number > 20) {
+        alert("Your final score is " + number + "%" + " which means your in Love.");
+    } 
+        else if (number <= 10 && number >= 50) {
+        alert("Your final score is " + number + "%" + ", which is no bueno :(");
+    }
+        else {
+            alert("ERROR!!!")
+        }
 }
 
 Love();
