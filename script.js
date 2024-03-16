@@ -132,6 +132,7 @@ function Love() {
         }
 }
 
+alert("Final result is " + Love());
 Love();
 
 
