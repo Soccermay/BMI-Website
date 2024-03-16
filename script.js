@@ -135,4 +135,30 @@ function Love() {
 alert("Final result is " + Love());
 Love();
 
+//BMI prompt 
+function bmiCalc (weight, height) {
+    
+    let bmi = Math.round(weight / Math.sqrt(height));
+    let bmiRando = Math.random(bmi) * 15;
+    bmiRando = Math.floor(bmiRando);
+    let interpretation;
+    
+    if(bmiRando < 18.5) {
+        interpretation = "Your BMI is " + bmiRando + ", so you are underweight.";
+    }
+        else if(bmiRando >= 18.5 && bmi < 24.9) {
+            interpretation = "Your BMI is " + bmiRando + ", so you have a normal weight.";
+        }
+        else if(bmiRando >= 24.9) {
+            interpretation = "Your BMI is " + bmiRando + ", so you are overweight.";
+        }
+    
+    return interpretation;  
+    
+}
+
+bmiCalc();
+
+prompt("Enter your data here: " + bmiCalc());
+
 
